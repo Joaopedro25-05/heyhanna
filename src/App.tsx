@@ -1,7 +1,12 @@
-import "./App.css";
+import { Layout } from "./components/Layout";
+import { Hero } from "./components/sections/Hero";
 
 function App() {
-  return <></>;
+  return (
+    <Layout title="Hey Hanna">
+      <Hero />
+    </Layout>
+  );
 }
 
 export default App;
